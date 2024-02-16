@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Protest Riot", sans-serif;
+}
+
+ /* This is header section Css */
+header{
+    width: 100%;
+    height: 12vh;
+    background-color: #f6de7f;
+    box-shadow: rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.header-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 25px 0 25px;
+}
+
+.logo{
+    margin-top: 15px;
+    width: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+header nav{
+    display: flex;
+    gap: 18px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #000;
+    font-size: large;
+    cursor: pointer;
+}
+
+header nav a::after{
+    content: '';
+    width: 0;
+    height: 2.5px;
+    background: #000;
+    display: block;
+    transition: 0.2s linear;
+}
+header nav a:hover::after{
+    width: 100%;
+}
+ /* This is the 1st section Css */
+
+.sec-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to left, #80ffe3, #ffffff);
+    width: 100%;
+    height: 91vh;
+}
+
+.sec-1 h1{
+    font-size: 50px;
+    color: #000;
+}
+
+.sec-1 h1 span{
+    color: #f40c0c;
+    font-size: 60px;
+}
+
+.sec-1 .span{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.sec-1 .span span{
+    color: #f40c0c;
+    margin: 0 5px 0 5px;
+}
+.sec-1 img{
+    margin-top: 30px;
+    width: 600px;
+}
+
+ /* This the 2nd section Css */
+
+ .sec-2{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to left, #ffffff, #b3ffb9);
+}
+
+.sec-2 .sec-text-2{
+    margin-top: 18px;
+}
+.sec-text-2 h2{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+}
+.sec-text-2 span{
+    color: #f40c0c;
+    margin-left: 10px;
+}
+.sec-text-2 p{
+    display: flex;
+    align-items: center;
+    width: 700px;
+    text-align: justify;
+    line-height: 30px;
+    position: relative;
+    left: 450px;
+}
+
+.sec-container{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec-2 h4{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    text-decoration: underline;
+    text-decoration-color: #f40c0c;
+}
+
+.sec-2 .img-box{
+    border: none;
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    background-color: #9f948a;
+    transition: .3s;
+    cursor: pointer;
+}
+.sec-2 .img-box:hover{
+    width: 200;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+.sec-2 .img-box:hover img{
+    width: 200;
+    border-radius: 30px;
+    background-color: #ffff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.sec-2 .img-box:nth-child(2){
+    background-color: #afafafe6;
+}
+.sec-2 .img-box:nth-child(3){
+    background-color: #b9e8ffe6;
+}
+.sec-2 .img-box:nth-child(4){
+    background-color: #b9ffbfe6;
+}
+.sec-2 img{
+    position: relative;
+    left: 47px;
+    top: 37px;
+    width: 130px;
+    transition: .3s;
+}
+
+.img-box span{
+    position: relative;
+    top: 60px;
+    right: 50px;
+}
+
+ /* This is 3rd section Css */
+.sec-3{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #ffffff, #aefde4);
+}
+
+.sec-3 h2{
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+
+}
+
+.sec-3 span{
+    color: #f40c0c;
+    margin-right: 10px;
+}
+
+.projucts{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+
+.projucts li{
+    margin-top: 25px;
+    border: none;
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;  
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    transition: .3s;
+    
+}
+
+.projucts li:hover a{
+    border-radius: 40px 10px;
+    background-color: #f9d158;
+    color: #000;
+    border: 1px solid #000;
+    transition: .3s;
+}
+
+.projucts h3{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.projucts p{
+    margin-top: 25px;
+    width: 300px;
+    text-align: center;
+}
+
+
+.projucts a{
+    position: relative;
+    top: 50px;
+    left: 100px;
+    padding: 5px 15px;
+    background-color: #0c0c0c;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: .3s;
+}
+
+.projucts img{
+    width: 200px;
+    border-radius: 15px;
+    position: relative;
+    top: 12px;
+    right: 40px;
+}
+
+ /* This is my Foooooooter!! */
+
+footer{
+    width: 100%;
+    height: 70vh;
+    
+}
+
+.footer-box{
+    margin-top: 20px;
+    background: linear-gradient(to bottom, #ffffff, #e7fed6);
+    padding: 50px;
+    width: 90%;
+    margin-left: 25px;
+    border-radius: 35px;
+}
+
+.footer-cnt{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 30px 0 30px;
+}
+
+.footer-box:hover img{
+    width: 100px;
+    height: 100px;
+    border-radius: 28px;
+    transition: .3s;
+}
+
+.footer-cnt img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.footer-cnt .input{
+    background-color: #faddab;
+    position: relative;
+    left: 150px;
+    padding: 15px 35px;
+    bottom: 40px;
+    color: #000;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    box-shadow: 5px 5px 5px 10px rgba(0, 0, 0, 0.01);
+}
+
+.footer-cnt button{
+    position: relative;
+    right: 90px;
+    padding: 10px 90px;
+    border: none;
+    border-radius: 25px;
+    background-color: #baffac;
+    box-sizing: 5px 5px 5px 10px rgba(0, 0, 0, 0.01);
+}
+
+.items{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.items h3{
+    text-align: center;
+}
+
+.items a{
+    font-size: 25px;
+    margin: 20px 10px 0 10px;
+    color: #1b92fa;
+}
+
+.items a:nth-child(5){
+    color: #f469fb;
+}
+.items a:nth-child(6){
+    color: #6ff4fe;
+}
+.items span{
+    margin-top: 25px;
+}
